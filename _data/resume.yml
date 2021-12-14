@@ -93,8 +93,10 @@ others: #其他列表显示
 
 - type: workings #类别为ID
   name: 个人作品 #显示名称，空则使用type
-- text: "点我直达"
-  href: 'http://zuopin.yangchris.life'
+  content: 
+  - title: "你在找什么:"
+    items: #单行列表
+    - 我在右上角啊
       
  
 #- type: 

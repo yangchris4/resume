@@ -96,7 +96,7 @@ others: #其他列表显示
   content: 
   - title: "你在找什么:"
     items: #单行列表
-    - 我在右上角啊
+    - 在右上角啊!
       
  
 #- type: 

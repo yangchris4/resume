@@ -90,11 +90,7 @@ others: #其他列表显示
     - 良好的沟通协调、理解能力、书面及语言表达能力较强;
     - 能快速理清思路，善于发现问题，能及时解决问题;
     - 主动积极响应与配合，良好的团队合作意识.
-  - title: "个人作品:"
-    items: 
-    - text: "个人作品"
-      href: 'http://zuopin.yangchris.life'
-      
+
 - type: workings #类别为ID
   name: 个人作品 #显示名称，空则使用type
   content: 
@@ -116,7 +112,7 @@ footer: #脚注多组
   - text: "自豪的采用online cv"
   #   href: '/'
   - text: "Made by yangchris"
-    href: ""
+    href: "https://www.baidu.com"
 
 #页面额外js脚本，如xx统计
 scripts:

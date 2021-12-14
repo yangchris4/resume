@@ -4,7 +4,7 @@
 title: "个人简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "许杨杨"
-jobtitle: "求职意向" #可空不显示
+jobtitle: "个人简历" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
@@ -16,7 +16,7 @@ contact: #联系方式连接等3~5行
   href: 'tel:13245613547'
   icon: 'icons/phone.svg'
 - text: "个人作品集"
-  href: 'https://zuopin.yangchris.life'
+  href: 'http://zuopin.yangchris.life'
   icon: 'icons/web.svg'
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
@@ -25,16 +25,15 @@ contact: #联系方式连接等3~5行
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: 教育背景 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: 盐城师范学院
     duration: "2013年9月 - 2017年"
     sub: 本科毕业
-    detail: 盐城老生
+    detail: 不要再问我为什么跨行业从事设计工作，因为:兴趣使然，所有平面设计相关软件自学而成，设计技能和软件使用程度我相信只要是个心智健全的人那么他的熟练度都不言而喻了吧....
   - title: YCTU University
     duration: Sep 2013 - Jun 2017
     sub: nothing to tell.
-    detail: to be a happy boy.
 
 - type: skills
   # name: "技能"
@@ -46,29 +45,32 @@ main: #简历主要内容，
     - illustrator
     - indesign
     - premiere
+    - ……
     
-  - title: Skill Group
+  - title: Skill 
     summary: Consectetur, Adipiscing, Elit
 
 - type: experience
-  name: 经验
+  name: 工作经历
   content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
+  - title: 平面设计师
+    sub: 南通盛世祥和广告有限公司
+    duration: "2017年07月 - 2018年02月"
     tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
+    - 初生牛犊不怕虎
+    summary: 1、参与广告活动筹划及落地;2、参与合作商项目策略的制定、案场常规事务处理;3、合作商活动物料设计制作;4、线上线下推广渠道的搭建以及维护。
+    
+- title: 平面设计师
+    sub: 南通喜悦广告传媒有限公司
+    duration: "2018年05月 - 至今"
+    tags:
+    - 长出犄角反怕狼
+    summary: 1、设计制作客户所需宣传物料，包括但不限于:宣传单页、产品手册、展架、易拉宝、海报等;2、协助营销策划同事完成微信公众号、官网等网站的设计工作;3、设计制作客户的企业文化宣传资料、名片、图册；4、完成领导交代的其他工作。
+    
     detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
     # open: open
     #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
 
 - type: projects
   name: Projects

@@ -99,16 +99,10 @@ others: #其他列表显示
   name: 个人作品 #显示名称，空则使用type
   content: 
   - title: "个人作品:"
-    items: 
-    - text: "点我直达"
-      href: 'http://zuopin.yangchris.life'
-      
-  screen:
-  - text: "个人作品"
-  #   href: '/'
   - text: "点我直达"
-    href: "http://zuopin.yangchris.life"
-   
+    href: 'http://zuopin.yangchris.life'
+      
+ 
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式

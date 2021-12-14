@@ -102,7 +102,12 @@ others: #其他列表显示
     items: 
     - text: "点我直达"
       href: 'http://zuopin.yangchris.life'
-
+      
+  screen:
+  - text: "个人作品"
+  #   href: '/'
+  - text: "点我直达"
+    href: "http://zuopin.yangchris.life"
    
 #- type: 
 #  name: '其他'

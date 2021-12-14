@@ -50,6 +50,14 @@ main: #简历主要内容，
   - title: Skill 
     summary: Consectetur, Adipiscing, Elit
 
+- type: Skill certificate
+  name: 技能证书
+  content:
+  - title: 语言技能:英语CET4
+  - title: 办公技能:熟练使用Office等办公软件
+  - title: 软件技能:Pr、 AE、 PS. Ai、 IND和CDR等设计类常规软件
+    
+    
 - type: experience
   name: 工作经历
   content:
@@ -72,37 +80,27 @@ main: #简历主要内容，
     #可以设置open默认展开
   
 
-- type: projects
-  name: Projects
+- type: Skill certificate
+  name: 技能证书
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
-    detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
+  - title: 语言技能:英语CET4
+  - title: 办公技能:熟练使用Office等办公软件
+  - title: 软件技能: Pr、 AE、 PS. Ai、 IND和CDR等设计类常规软件
+    
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
 others: #其他列表显示
-- type: others #ID可以为空
-  name: '其他'
+- type: About Me #ID可以为空
+  name: '自我评价'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
+  - title: 自省小节
     list:
-    - 第一项
-    - 第二项
+    - 做事效率高、认真负责、细心，抗压能力、计划组织能力较强;
+    - 良好的沟通协调、理解能力、书面及语言表达能力较强;
+    - 能快速理清思路，善于发现问题，能及时解决问题;
+    - 主动积极响应与配合，良好的团队合作意识.
+    
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
@@ -115,8 +113,8 @@ footer: #脚注多组
   screen:
   - text: "简历脚注"
   #   href: '/'
-  - text: "Made with &hearts; by NewFuture"
-    href: "https://github.com/NewFuture/CV/"
+  - text: "Made by yangchris"
+    href: ""
 
 #页面额外js脚本，如xx统计
 scripts:

@@ -1,113 +1,116 @@
---- 
-contact: 
-  - 
-    href: "mailto:yctuxyy@163.com"
-    icon: icons/email.svg
-    text: yctuxyy@163.com
-  - 
-    href: "tel:13245613547"
-    icon: icons/phone.svg
-    text: "13245613547"
-  - 
-    attr: target="_blank"
-    href: "http://zuopin.yangchris.life"
-    icon: icons/web.svg
-    text: 个人作品集
-footer: 
-  print: ~
-  screen: 
-    - 
-      text: 简历脚注
-    - 
-      href: ""
-      text: "Made by yangchris"
-jobtitle: 个人简历
-lang: zh
-main: 
-  - 
-    content: 
-      - 
-        detail: "不要再问我为什么跨行业从事设计工作，因为:兴趣使然，所有平面设计相关软件自学而成，设计技能和软件使用程度我相信只要是个心智健全的人那么他的熟练度都不言而喻了吧...."
-        duration: "2013年9月 - 2017年"
-        sub: 本科毕业
-        title: 盐城师范学院
-      - 
-        duration: "Sep 2013 - Jun 2017"
-        sub: "nothing to tell."
-        title: "YCTU University"
-    name: 教育背景
-    type: education
-  - 
-    content: 
-      - 
-        items: 
-          - photoshop
-          - coreldraw
-          - illustrator
-          - indesign
-          - premiere
-          - ……
-        title: 软件使用
-      - 
-        summary: "Consectetur, Adipiscing, Elit"
-        title: Skill
-    type: skills
-  - 
-    content: 
-      - 
-        title: "语言技能:英语CET4"
-      - 
-        title: "办公技能:熟练使用Office等办公软件"
-      - 
-        title: "软件技能:Pr、 AE、 PS. Ai、 IND和CDR等设计类常规软件"
-    name: 技能证书
-    type: "Skill certificate"
-  - 
-    content: 
-      - 
-        duration: "2017年07月 - 2018年02月"
-        sub: 南通盛世祥和广告有限公司
-        summary: 1、参与广告活动筹划及落地;2、参与合作商项目策略的制定、案场常规事务处理;3、合作商活动物料设计制作;4、线上线下推广渠道的搭建以及维护。
-        tags: 
-          - 初生牛犊不怕虎
-        title: 平面设计师
-      - 
-        detail: "同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致"
-        duration: "2018年05月 - 至今"
-        sub: 南通喜悦广告传媒有限公司
-        summary: "1、设计制作客户所需宣传物料，包括但不限于:宣传单页、产品手册、展架、易拉宝、海报等;2、协助营销策划同事完成微信公众号、官网等网站的设计工作;3、设计制作客户的企业文化宣传资料、名片、图册；4、完成领导交代的其他工作。"
-        tags: 
-          - 长出犄角反怕狼
-        title: 平面设计师
-    name: 工作经历
-    type: experience
-  - 
-    content: 
-      - 
-        title: "语言技能:英语CET4"
-      - 
-        title: "办公技能:熟练使用Office等办公软件"
-      - 
-        title: "软件技能:Pr、 AE、 PS. Ai、 IND和CDR等设计类常规软件"
-    name: 技能证书
-    type: "Skill certificate"
-name: 许杨杨
-others: 
-  - 
-    content: 
-      - 
-        items: 
-          - 6500+
-        title: "期望薪资:"
-      - 
-        list: 
-          - 做事效率高、认真负责、细心，抗压能力、计划组织能力较强;
-          - 良好的沟通协调、理解能力、书面及语言表达能力较强;
-          - 能快速理清思路，善于发现问题，能及时解决问题;
-          - 主动积极响应与配合，良好的团队合作意识.
-        title: 自省小节
-    name: 其他
-    type: others
-photo: assets/img/photo.jpg
-scripts: ~
-title: 个人简历
+# 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
+# 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
+
+title: "个人简历"
+lang: "zh" #语言设置 zh表示中文 en 表示英语
+name: "许杨杨"
+jobtitle: "个人简历" #可空不显示
+photo: "assets/img/photo.jpg" #照片可空，不显示
+
+#联系方式
+contact: #联系方式连接等3~5行
+- text: "yctuxyy@163.com" #文本内容
+  href: 'mailto:yctuxyy@163.com' #链接，无链接则空  
+  icon: 'icons/email.svg' #图标 svg文件
+- text: "13245613547"
+  href: 'tel:13245613547'
+  icon: 'icons/phone.svg'
+- text: "个人作品集"
+  href: 'http://zuopin.yangchris.life'
+  icon: 'icons/web.svg'
+  attr: 'target="_blank"' #新标签页打开
+  # - text: "地址"
+  #   icon: "icons/location.svg"
+
+#main下面是主体内容，类别条数不限
+main: #简历主要内容，
+- type: education #类别为ID
+  name: 教育背景 #显示名称，空则使用type
+  content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
+  - title: 盐城师范学院
+    duration: "2013年9月 - 2017年"
+    sub: 本科毕业
+    detail: 不要再问我为什么跨行业从事设计工作，因为:兴趣使然，所有平面设计相关软件自学而成，设计技能和软件使用程度我相信只要是个心智健全的人那么他的熟练度都不言而喻了吧....
+  - title: YCTU University
+    duration: Sep 2013 - Jun 2017
+    sub: nothing to tell.
+
+
+- type: Skill certificate
+  name: 技能证书
+  content:
+  - title: 语言技能:英语CET4
+  - title: 办公技能:熟练使用Office等办公软件
+  - title: 软件技能
+    items: #itmems 可以小块的方式显示
+    - photoshop
+    - coreldraw
+    - illustrator
+    - indesign
+    - premiere
+    - ……
+    
+    
+- type: experience
+  name: 工作经历
+  content:
+  - title: 平面设计师
+    sub: 南通盛世祥和广告有限公司
+    duration: "2017年07月 - 2018年02月"
+    tags:
+    - 初生牛犊不怕虎
+    summary: 1、参与广告活动筹划及落地;
+             2、参与合作商项目策略的制定、案场常规事务处理;
+             3、合作商活动物料设计制作;
+             4、线上线下推广渠道的搭建以及维护。
+    
+  - title: 平面设计师
+    sub: 南通喜悦广告传媒有限公司
+    duration: "2018年05月 - 至今"
+    tags:
+    - 长出犄角反怕狼
+    summary: 1、设计制作客户所需宣传物料，包括但不限于:宣传单页、产品手册、展架、易拉宝、海报等;
+             2、协助营销策划同事完成微信公众号、官网等网站的设计工作;
+             3、设计制作客户的企业文化宣传资料、名片、图册；
+             4、完成领导交代的其他工作。
+    
+ 
+    # open: open
+    #可以设置open默认展开
+    #可继续添加更多内容
+
+#others 其他简略内容(列表)
+others: #其他列表显示
+- type: others #ID可以为空
+  name: '其他'
+  content: #选择需要的格式
+  - title: "期望薪资:"
+    items: #单行列表
+    - 6500+
+  - title: 自省小节
+    list:
+    - 做事效率高、认真负责、细心，抗压能力、计划组织能力较强;
+    - 良好的沟通协调、理解能力、书面及语言表达能力较强;
+    - 能快速理清思路，善于发现问题，能及时解决问题;
+    - 主动积极响应与配合，良好的团队合作意识.
+
+   
+#- type: 
+#  name: '其他'
+#  content: #选择需要的格式
+#  - 单行文字
+#  - 如果有可以继续添加
+
+#footer 脚注，打印版和web版不同不显示    
+footer: #脚注多组
+  print: #打印版markdown或者html
+  screen:
+  - text: "简历脚注"
+  #   href: '/'
+  - text: "Made by yangchris"
+    href: ""
+
+#页面额外js脚本，如xx统计
+scripts:
+#- src: "assets/js/resume.js"
+#  defer: defer #可以设置defer或者sync异步加载

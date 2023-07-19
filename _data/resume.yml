@@ -26,7 +26,21 @@ main:
     sub: 城市规划 城市规划专业 
     duration: "2013年9月 - 2017年6月"
     detail: 本科毕业,主修城市规划设计,辅修平面设计。学习了平面设计相关的手绘、排版软件等专业知识。
-
+    
+- type: Skill certificate
+  name: 技能证书
+  content:
+  - title: 软件技能
+    items: #itmems 可以小块的方式显示
+    - photoshop
+    - coreldraw
+    - illustrator
+    - indesign
+    - premiere
+    - ……
+  - title: 办公技能:熟练使用Office等办公软件
+  - title: 语言技能:英语CET4
+  
 - type: experience
   name: 工作经历 
   content:
@@ -34,19 +48,16 @@ main:
     sub: 南通喜悦广告传媒有限公司
     duration: "2018年05月 - 至今"  
     summary:
-      - 负责客户品牌视觉设计和产品设计
-      - 制作各类平面宣传物料
-      - 配合微信公众号、网站页面设计
+      - 1.负责客户品牌视觉设计和产品设计
+      - 2.制作各类平面宣传物料
+      - 3.配合微信公众号、网站页面设计
   - title: 平面设计师 
     sub: 南通盛世祥和广告有限公司
     duration: "2017年07月 - 2018年02月"
     summary:
-      - 参与广告活动策划和执行
-      - 处理客户常规设计事务
-      - 设计各类线上线下宣传物料
-
-- type: Skill certificate
-  name: 技能证书
+      - 1.参与广告活动策划和执行
+      - 2.处理客户常规设计事务
+      - 3.设计各类线上线下宣传物料
 
 - type: others
   name: 其他方面
@@ -65,10 +76,18 @@ main:
   content:
   - title: 企业品牌视觉设计
     items:
-    - https://zuopin.yangchris.life
+  - href: 'https://zuopin.yangchris.life'
+    icon: 'icons/web.svg'
   - title: 平面广告设计
     items: 
-    - https://zuopin.yangchris.life
+  - href: 'https://zuopin.yangchris.life'
+    icon: 'icons/web.svg'
+    
+summary:
+  title: 自我小结
+summary: |
+  我是一名对设计充满热情的90后小伙子,4年专业学习让我对平面设计有了系统的理解,2年工作经验使我对企业设计需求有了深入的认识。我注重设计的创新性和实用性,善于思考用户体验,以人为本的设计理念深入我心。我渴望有机会加入更专业的设计团队,与志同道合的伙伴共事,取得更大的设计成就。我相信竭诚、务实、创新是我的优势,也是我在职业道路上持续进步的动力。加入贵公司是我职业生涯的新起点,我将全力以赴,为公司创造更大价值。
+  
     
 footer:
   print:

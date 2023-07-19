@@ -91,12 +91,22 @@ others: #其他列表显示
     - 能快速理清思路，善于发现问题，能及时解决问题;
     - 主动积极响应与配合，良好的团队合作意识.
 
-- type: workings #类别为ID
-  name: 个人作品 #显示名称，空则使用type
-  content: 
-  - title: "你在找什么:"
-    items: #单行列表
-    - 在右上角啊!
+- type: workings
+  name: 个人作品
+  content:
+  - title: 企业品牌视觉设计
+  - title: 个人设计作品集 
+    items:
+  - href: 'https://zuopin.yangchris.life'
+    icon: 'icons/web.svg'
+  - title: 平面广告设计
+    items: 
+  - href: 'https://zuopin.yangchris.life'
+    icon: 'icons/web.svg'
+    - text: 为品牌设计的视觉识别系统,包含LOGO设计、品牌色彩、视觉元素等 (点我直达)
+      href: "https://zuopin.yangchris.life" 
+    - text: 多个行业平面广告设计案例,包含海报、宣传页、DM单页等,展示广告设计思路 (点我直达)
+      href: "https://zuopin.yangchris.life"
       
  
 #- type: 

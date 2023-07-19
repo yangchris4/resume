@@ -1,38 +1,29 @@
 # 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
 # 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
-
 title: "个人简历"
-lang: "zh" #语言设置 zh表示中文 en 表示英语
+lang: "zh" 
 name: "许杨杨"
-jobtitle: "个人简历" #可空不显示
-photo: "assets/img/photo.jpg" #照片可空，不显示
-
-#联系方式
-contact: #联系方式连接等3~5行
-- text: "yctuxyy@163.com" #文本内容
-  href: 'mailto:yctuxyy@163.com' #链接，无链接则空  
-  icon: 'icons/email.svg' #图标 svg文件
-- text: "13245613547"
-  href: 'tel:13245613547'
-  icon: 'icons/phone.svg'
+photo: "assets/img/photo.jpg" 
+contact:
+- text: "1123604497@qq.com"
+  href: 'mailto:1123604497@qq'
+  icon: 'icons/email.svg'
+- text: "15351893049" 
+  href: 'tel:15351893049'
+  icon: 'icons/phone.svg'  
 - text: "个人作品集"
-  href: 'http://zuopin.yangchris.life'
+  href: 'https://zuopin.yangchris.life'
   icon: 'icons/web.svg'
-  attr: 'target="_blank"' #新标签页打开
-  # - text: "地址"
-  #   icon: "icons/location.svg"
-
-#main下面是主体内容，类别条数不限
-main: #简历主要内容，
-- type: education #类别为ID
-  name: 教育背景 #显示名称，空则使用type
-  content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
+  attr: 'target="_blank"'
+main:
+- type: education 
+  name: 教育背景
+  content:
   - title: 盐城师范学院
-    duration: "2013年9月 - 2017年"
-    sub: 本科毕业
-    detail: 不要再问我为什么跨行业从事设计工作，因为:兴趣使然，所有平面设计相关软件自学而成，设计技能和软件使用熟练程度经过这么长是实操就不言而喻了吧....
-
-
+    sub: 城市规划 城市规划专业 
+    duration: "2013年9月 - 2017年6月"
+    detail: 本科毕业,主修城市规划设计,辅修平面设计。学习了平面设计相关的手绘、排版软件等专业知识。
+    
 - type: Skill certificate
   name: 技能证书
   content:
@@ -46,50 +37,16 @@ main: #简历主要内容，
     - ……
   - title: 办公技能:熟练使用Office等办公软件
   - title: 语言技能:英语CET4
+  - title: 办公技能
+    items:
+    -熟练使用Office等办公软件
+  - title: 语言技能
+    items:
+    -英语CET4
 
-    
 - type: experience
-  name: 工作经历
-  content:
-  - title: 平面设计师
-    sub: 南通盛世祥和广告有限公司
-    duration: "2017年07月 - 2018年02月"
-    tags:
-    - 初生牛犊不怕虎
-    summary: 1、参与广告活动筹划及落地;
-             2、参与合作商项目策略的制定、案场常规事务处理;
-             3、合作商活动物料设计制作;
-             4、线上线下推广渠道的搭建以及维护。
-    
-  - title: 平面设计师
-    sub: 南通喜悦广告传媒有限公司
-    duration: "2018年05月 - 至今"
-    tags:
-    - 长出犄角反怕狼
-    summary: 1、设计制作客户所需宣传物料，包括但不限于:宣传单页、产品手册、展架、易拉宝、海报等;
-             2、协助营销策划同事完成微信公众号、官网等网站的设计工作;
-             3、设计制作客户的企业文化宣传资料、名片、图册；
-             4、完成领导交代的其他工作。
-    
- 
-    # open: open
-    #可以设置open默认展开
-    #可继续添加更多内容
+  name: 工作经历 
 
-#others 其他简略内容(列表)
-others: #其他列表显示
-- type: others #ID可以为空
-  name: '其他方面'
-  content: #选择需要的格式
-  - title: "期望薪资:"
-    items: #单行列表
-    - 7000+
-  - title: 自我认知
-    list:
-    - 做事效率高、认真负责、细心，抗压能力、计划组织能力较强;
-    - 良好的沟通协调、理解能力、书面及语言表达能力较强;
-    - 能快速理清思路，善于发现问题，能及时解决问题;
-    - 主动积极响应与配合，良好的团队合作意识.
 
 - type: workings
   name: 个人作品
@@ -107,24 +64,23 @@ others: #其他列表显示
       href: "https://zuopin.yangchris.life" 
     - text: 多个行业平面广告设计案例,包含海报、宣传页、DM单页等,展示广告设计思路 (点我直达)
       href: "https://zuopin.yangchris.life"
-      
- 
-#- type: 
-#  name: '其他'
-#  content: #选择需要的格式
-#  - 单行文字
-#  - 如果有可以继续添加
 
-#footer 脚注，打印版和web版不同不显示    
+- type: workings
+  name: 自我小结
+  content: 
+  - title: 个人总结 
+    detail: 我是一名对设计充满热情的90后小伙子,4年专业学习让我对平面设计有了系统的理解,2年工作经验使我对企业设计需求有了深入的认识。我注重设计的创新性和实用性,善于思考用户体验,以人为本的设计理念深入我心。我渴望有机会加入更专业的设计团队,与志同道合的伙伴共事,取得更大的设计成就。我相信竭诚、务实、创新是我的优势,也是我在职业道路上持续进步的动力。加入贵公司是我职业生涯的新起点,我将全力以赴,为公司创造更大价值。
+  
+    
 footer:
   print:
   screen:
-  - text: "下载Pdf版本"
+  - text: "下载Pdf版本"  
     href: "/resume.pdf"
   - text: "Made by yangchris"
     href: "https://www.baidu.com"
-
 #页面额外js脚本，如xx统计
 scripts:
+- src: "assets/js/counter.js"
 #- src: "assets/js/resume.js"
 #  defer: defer #可以设置defer或者sync异步加载

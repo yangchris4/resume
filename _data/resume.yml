@@ -44,17 +44,17 @@ main:
   - title: 平面设计师
     sub: 南通喜悦广告传媒有限公司
     duration: "2018年05月 - 至今"  
-    list:
-    - 1.负责客户品牌视觉设计和产品设计
-    - 2.制作各类平面宣传物料
-    - 3.配合微信公众号、网站页面设计
+    summary:
+    - 1.负责客户品牌视觉设计和产品设计；
+    - 2.制作各类平面宣传物料；
+    - 3.配合微信公众号、网站页面设计。
   - title: 平面设计师 
     sub: 南通盛世祥和广告有限公司
     duration: "2017年07月 - 2018年02月"
     summary:
-      - 参与广告活动策划和执行
-      - 处理客户常规设计事务
-      - 设计各类线上线下宣传物料
+      - 1.参与广告活动策划和执行；
+      - 2.处理客户常规设计事务；
+      - 3.设计各类线上线下宣传物料。
       
 - type: workings
   name: 个人作品
@@ -62,9 +62,8 @@ main:
   - title: 平面广告设计 
     items:   
       - href: https://zuopin.yangchris.life
-        icon: icons/web.svg
-      - text: 为品牌设计的视觉识别系统,包含LOGO设计、品牌色彩、视觉元素等 ([点我直达](https://zuopin.yangchris.life))  
-      - text: 多个行业平面广告设计案例,包含海报、宣传页、DM单页等,展示广告设计思路 ([点我直达](https://zuopin.yangchris.life))
+      - text: 为品牌设计的视觉识别系统,包含LOGO设计、品牌色彩、视觉元素等
+      - text: 多个行业平面广告设计案例,包含海报、宣传页、DM单页等,展示广告设计思路
 
 - type: workings
   name: 自我小结

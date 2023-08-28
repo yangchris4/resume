@@ -61,10 +61,17 @@ main:
   content:  
   - title: 平面广告设计 
     items:   
-      - https://zuopin.yangchris.life
+      - https://zuopin.yangchris.life （复制这段到浏览器or点击右上角跳转）
       - 为品牌设计的视觉识别系统,包含LOGO设计、品牌色彩、视觉元素等
       - 多个行业平面广告设计案例,包含海报、宣传页、DM单页等,展示广告设计思路
-
+      
+- type: others
+  name: 薪资报酬
+  content:
+  - title: "期望薪资"
+    items:
+    - 7k+
+    
 - type: workings
   name: 自我小结
   content: 

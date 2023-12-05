@@ -29,8 +29,8 @@ main:
   content:
   - title: 软件技能
     items: #itmems 可以小块的方式显示
-    - photoshop(pr)
     - coreldraw(cdr)
+    - photoshop(ps)
     - illustrator(ai)
     - indesign(in)
     - premiere(pr)

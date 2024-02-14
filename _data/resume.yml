@@ -8,8 +8,8 @@ contact:
 - text: "1123604497@qq.com"
   href: 'mailto:1123604497@qq'
   icon: 'icons/email.svg'
-- text: "15351893049" 
-  href: 'tel:15351893049'
+- text: "18962961351" 
+  href: 'tel:18962961351'
   icon: 'icons/phone.svg'  
 - text: "个人作品集"
   href: 'https://zuopin.yangchris.life'
@@ -25,7 +25,7 @@ main:
     detail: 本科毕业,主修城市规划设计,辅修平面设计。学习了平面设计相关的手绘、排版软件等专业知识。
     
 - type: Skill certificate
-  name: 技能证书
+  name: 个人技能
   content:
   - title: 软件技能
     items: #itmems 可以小块的方式显示
@@ -34,27 +34,42 @@ main:
     - illustrator(ai)
     - indesign(in)
     - premiere(pr)
-    - ……
-  - title: 办公技能:熟练使用Office等办公软件
-  - title: 语言技能:英语CET4
+    - …………
+  - title: 办公技能
+    items: #itmems 可以小块的方式显示
+    - word
+    - excel
+    - ppt
+  - title: 其他
+    items: #itmems
+    - 了解线下各类物料从设计到制作的流程
+    - 了解线上店铺及常规新媒体的运营
+    - 可接受出差
+    - 乐观、乐观、乐观
 
+   
 - type: experience
   name: 工作经历 
   content:
-  - title: 平面设计师
+  - title: 设计师
     sub: 南通喜悦广告传媒有限公司
-    duration: "2018年05月 - 至今"  
+    duration: "2019年05月 - 至今"  
     items:
-    - 1.负责客户品牌视觉设计和产品设计；
-    - 2.制作各类平面宣传物料；
-    - 3.配合微信公众号、网站页面设计。
-  - title: 平面设计师 
+    - 1.负责客户品牌视觉设计包含LOGO设计、品牌色彩、视觉元素等；
+    - 2.配合进行线上推广平台微信公众号、公司网站页面的图片元素设计；    
+    - 3.设计并制周边多个行业的平面广告设计案例,包含海报、宣传页、DM单页等,展示广告设计思路跟进各类物料生产；
+    - 4.与合作生产商充分沟通并催促，使整套进度与甲方预期相符合；
+    - 5.完成领导安排的其他任务。
+    
+    
+  - title: 设计师 
     sub: 南通盛世祥和广告有限公司
     duration: "2017年07月 - 2018年02月"
     items:
       - 1.参与广告活动策划和执行；
       - 2.处理客户常规设计事务；
-      - 3.设计各类线上线下宣传物料。
+      - 3.设计各类线上线下宣传物料；
+      - 4.完成领导安排的其他任务。
       
 - type: workings
   name: 个人作品
@@ -62,21 +77,21 @@ main:
   - title: 平面广告设计 
     items:   
       - https://zuopin.yangchris.life （复制这段到浏览器or点击右上角跳转）
-      - 为品牌设计的视觉识别系统,包含LOGO设计、品牌色彩、视觉元素等
-      - 多个行业平面广告设计案例,包含海报、宣传页、DM单页等,展示广告设计思路
+
       
 - type: others
-  name: 薪资报酬
+  name: 薪资待遇
   content:
-  - title: "期望薪资"
+  - title: "期望待遇"
     items:
-    - 7k+
+    - 薪资7k~8K 可面议。
+    - 有福利最好，没有也不强求。
     
 - type: workings
   name: 自我小结
   content: 
-  - title: 三省吾身 
-    detail: 我是一名对设计充满热情的90后小伙子,4年专业学习让我对平面设计有了系统的理解,2年工作经验使我对企业设计需求有了深入的认识。我注重设计的创新性和实用性,善于思考用户体验,以人为本的设计理念深入我心。我渴望有机会加入更专业的设计团队,与志同道合的伙伴共事,取得更大的设计成就。我相信竭诚、务实、创新是我的优势,也是我在职业道路上持续进步的动力。加入贵公司是我职业生涯的新起点,我将全力以赴,为公司创造更大价值。
+  - title: 身手小亮 
+    detail: 我是一个有热情并且不断丰富自身技能的设计人，我可以迅速处理客户的日常设计需求，从理解他们的期望到制定并实施设计策略，我始终能保持积极主动的态度。我的目标是使每一项服务都让客户满意。集结不断完善的技能、丰富的经验以及对设计的热情，我相信我的能力和才华可以为贵公司带来价值。
   
     
 footer:
@@ -87,8 +102,3 @@ footer:
     - text: "Made by yangchris"
       href: "https://www.baidu.com"
       
-#页面额外js脚本，如xx统计
-scripts:
-- src: "assets/js/counter.js"
-#- src: "assets/js/resume.js"
-#  defer: defer #可以设置defer或者sync异步加载
